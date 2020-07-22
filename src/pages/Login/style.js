@@ -2,16 +2,16 @@ import styled from 'styled-components'
 import { Button } from '@material-ui/core'
 
 export const Container = styled.div`
-  padding: 40px;
+  padding: ${({ theme }) => theme.spacing(3)}px;
 `
 
 export const GitHubButton = styled(Button).attrs({
   variant: 'contained',
   fullWidth: true,
 })`
-  & {
-    font-size: 1.2em;
-    padding: 10px;
+  && {
+    font-size: ${({ theme }) => theme.typography.h5.fontSize};
+    padding: ${({ theme }) => theme.spacing(2)}px;;
     text-transform: none;
     max-width: 480px;
   }
