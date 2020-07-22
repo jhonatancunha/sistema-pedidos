@@ -1,4 +1,4 @@
-# Sistemas de Peidos
+# Sistemas de Pedidos
 
 ## Configurações
 
